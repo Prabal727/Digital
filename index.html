@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Clock</h1>
+    </div>
+    <div class="time-display">
+      <div class="time">
+        <span id="hours">00</span> : <span id="minutes">00</span> : <span id="seconds">00</span>
+        <span id="am-pm">AM</span>
+      </div>
+      <p id="message">Grab some healthy breakfast!!!</p>
+    </div>
+
+    <div class="settings">
+      <div class="setting">
+        <label for="wake-up">Set wake-up time:</label>
+        <select id="wake-up">
+          <option value="10">10 AM - 11 AM</option>
+        </select>
+      </div>
+      <div class="setting">
+        <label for="lunch-time">Set lunch time:</label>
+        <select id="lunch-time">
+          <option value="12">12 PM - 1 PM</option>
+        </select>
+      </div>
+      <div class="setting">
+        <label for="nap-time">Set nap time:</label>
+        <select id="nap-time">
+          <option value="16">4 PM - 5 PM</option>
+        </select>
+      </div>
+      <div class="setting">
+        <label for="night-time">Set night time:</label>
+        <select id="night-time">
+          <option value="20">8 PM - 9 PM</option>
+        </select>
+      </div>
+      <button id="set-alarm">Set Alarm</button>
+    </div>
+    <p id="alarm-message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

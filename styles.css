@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5A3E9B;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .time-display {
+    background-color: #744CC9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .time {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .settings {
+    margin-top: 20px;
+    background-color: #663AB2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .setting {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #966CE4;
+    color: white;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #BA88F1;
+  }
+  
+  #alarm-message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
